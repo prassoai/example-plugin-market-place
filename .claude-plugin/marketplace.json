@@ -1,0 +1,14 @@
+{
+  "name": "prasso",
+  "owner": {
+    "name": "Prasso",
+    "url": "https://github.com/prassoai"
+  },
+  "plugins": [
+    {
+      "name": "linear",
+      "source": "./linear",
+      "description": "Linear MCP server for murmur agents (issues, projects, comments)."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "linear": {
+      "type": "http",
+      "url": "https://mcp.linear.app/mcp",
+      "bearer_token_env_var": "LINEAR_APPLICATION_TOKEN",
+      "headers": {
+        "Authorization": "Bearer ${LINEAR_APPLICATION_TOKEN}"
+      }
+    }
+  }
+}
